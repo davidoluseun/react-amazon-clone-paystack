@@ -1,6 +1,6 @@
 # React Amazon Clone
 
-[Amazon](https://www.amazon.com/) clone built with ReactJS, using [Paystack](https://paystack.com/) payment integration
+[Amazon](https://www.amazon.com/) clone built with ReactJS, it uses [Paystack](https://paystack.com/) payment gateway
 
 The payment integration is in test mode, feel free to enter a credit/debit card details
 
