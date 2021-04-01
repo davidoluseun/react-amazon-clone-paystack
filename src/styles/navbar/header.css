@@ -1,0 +1,64 @@
+/* Header Component Style
+------------------------------- */
+
+.header {
+  background: hsl(213, 28%, 19%);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 25;
+}
+
+.header a,
+.header .btn-link {
+  color: #fff;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.header .btn-link {
+  cursor: pointer;
+  background: transparent;
+}
+
+.header a:hover,
+.header .btn-link:hover {
+  text-decoration: none;
+  color: #fff;
+  border-color: #fff;
+}
+
+.header a:focus,
+.header .btn-link:focus {
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 153 0 / 50%);
+}
+
+.belt-nav .content-wrap,
+.main-nav .content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+/* Media Queries
+-------------------------------- */
+
+@media (min-width: 768px) {
+  .nav-fill {
+    display: flex;
+    flex: 1 1 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-left {
+    display: flex;
+  }
+}

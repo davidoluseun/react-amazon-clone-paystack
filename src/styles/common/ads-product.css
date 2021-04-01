@@ -1,0 +1,33 @@
+/* AdsProduct Component Style
+-------------------------------------- */
+
+.ads-product {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.ads-product-img-wrap {
+  flex-basis: 35%;
+  max-width: 35%;
+}
+
+.ads-product-img {
+  width: 100%;
+}
+
+.ads-product-details {
+  padding-left: 10px;
+  flex-basis: 65%;
+  max-width: 65%;
+}
+
+.ads-product-rating {
+  margin: 3px 0;
+}
+
+.ads-product-btn {
+  height: 20px;
+  font-size: 11px;
+  padding: 0 6px;
+  margin-top: 3px;
+}

@@ -1,0 +1,52 @@
+/* ShippingForm Component Style
+------------------------------------- */
+
+.shipping-form {
+  background: #fff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px #d5d9d9 solid;
+}
+
+.shipping-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.shipping-form legend {
+  padding: 0;
+  width: 100%;
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.shipping-form label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.shipping-form input,
+.shipping-form select {
+  width: 100%;
+}
+
+.form-group select {
+  height: 31px;
+  padding: 3px 7px;
+}
+
+.shipping-form .btn-primary {
+  width: 100%;
+}
+
+.zip-city,
+.state-country {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  column-gap: 16px;
+}

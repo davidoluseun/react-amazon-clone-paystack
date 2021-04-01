@@ -1,0 +1,194 @@
+/* MainNav Component Style
+------------------------------ */
+
+.main-nav {
+  height: 46px;
+  white-space: nowrap;
+}
+
+.main-nav .nav-fill {
+  display: none;
+}
+
+.main-nav a,
+.main-nav .btn-link {
+  display: inline-block;
+  margin: 4px 0;
+  padding: 8px;
+}
+
+.hm-label {
+  display: none;
+}
+
+.hm-menu {
+  color: #111;
+  width: 265px;
+  height: 100%;
+  z-index: 20;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  transition: all 0.5s linear;
+}
+
+.hm-menu-invisible {
+  left: -265px;
+  visibility: hidden;
+}
+
+.hm-menu-visible {
+  left: 0px;
+  visibility: visible;
+}
+
+.close-btn {
+  top: 10px;
+  left: 275px;
+  z-index: 20;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  background: transparent;
+}
+
+.close-btn span {
+  font-size: 30px;
+}
+
+.hm-menu-opaque {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+}
+
+.hm-menu-opaque-invisible {
+  display: none;
+}
+
+.hm-menu .hm-user-profile {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  background: #232f3e;
+}
+
+.hm-menu .hm-user-btn {
+  margin: 0;
+  border: 0;
+  height: 50px;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  padding: 0 0 0 30px;
+  align-items: center;
+}
+
+.hm-user-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 153 0 / 50%);
+}
+
+.hm-user-icon {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.hm-user-icon span {
+  color: #232f3e;
+}
+
+div.hm-menu-nav {
+  overflow: auto;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.hm-menu-nav > div {
+  border-bottom: 1px solid #d5dbdb;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+.hm-menu-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 0 10px 30px;
+}
+
+div.hm-menu-nav a {
+  color: #111;
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 13px 20px 13px 30px;
+}
+
+div.hm-menu-nav a:hover {
+  color: #111;
+  background: #eaeded;
+}
+
+div.hm-menu-nav a:focus {
+  outline: auto;
+  box-shadow: none;
+}
+
+.main-nav .nav-right {
+  display: none;
+}
+
+/* Media Queries
+--------------------------- */
+
+@media (min-width: 576px) {
+  .hm-label {
+    display: inline;
+    padding-left: 5px;
+  }
+
+  .main-nav .nav-right {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-nav .nav-fill {
+    display: flex;
+  }
+
+  .main-nav .nav-fill div {
+    width: 100%;
+  }
+
+  .hm-menu {
+    width: 365px;
+  }
+
+  .hm-menu-invisible {
+    left: -365px;
+  }
+
+  .hm-menu .hm-user-btn {
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .close-btn {
+    left: 375px;
+  }
+}

@@ -1,0 +1,67 @@
+/* productSlider Component Style
+------------------------------------ */
+
+.product-slider {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.product-slider-title {
+  display: flex;
+  font-size: 12px;
+}
+
+.product-slider-title h2 {
+  margin: 0 15px 15px 0;
+}
+
+/* SliderProducts - Slick Slider Override */
+
+.product-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.product-slider img {
+  max-height: 200px;
+  padding-right: 10px;
+}
+
+.product-slider .slick-arrow {
+  height: 100px;
+  width: 45px;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 0 1px 3px #888;
+  display: none !important;
+}
+
+.product-slider:hover .slick-arrow {
+  display: block !important;
+}
+
+.product-slider .slick-prev {
+  border-radius: 0 3px 3px 0;
+  border-left: 0;
+  left: 0px;
+}
+
+.product-slider .slick-next {
+  border-radius: 3px 0 0 3px;
+  right: 0px;
+}
+
+.product-slider .slick-next:before,
+.product-slider .slick-prev:before {
+  color: black;
+}
+
+/* Media Queries
+--------------------------- */
+
+@media (min-width: 536px) {
+  .product-slider-title {
+    display: flex;
+  }
+}

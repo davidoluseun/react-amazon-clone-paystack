@@ -1,0 +1,11 @@
+/* CartInfo Component Style
+-------------------------------------- */
+
+.cart-info {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.cart-info p {
+  margin: 0;
+}

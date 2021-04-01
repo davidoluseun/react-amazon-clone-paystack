@@ -1,0 +1,48 @@
+/* Home Component Style
+--------------------------- */
+
+.home {
+  background: #eaeded;
+  padding-bottom: 20px;
+}
+
+.home-wrap {
+  padding: 20px 20px 0;
+  background: transparent;
+}
+
+.product-category-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
+/* Media Queries
+--------------------------- */
+
+@media (min-width: 576px) {
+  .product-category-wrap {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-wrap {
+    transform: translateY(-200px);
+    margin-bottom: -200px !important;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-wrap {
+    transform: translateY(-315px);
+    margin-bottom: -315px !important;
+    z-index: 10;
+  }
+
+  .product-category-wrap {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,0 +1,27 @@
+/* Payment Component Style
+------------------------------------- */
+
+.payment {
+  background: #fff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px #d5d9d9 solid;
+}
+
+.payment h3 {
+  margin: 0;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.payment .btn-primary {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.payment .btn-primary:disabled {
+  cursor: not-allowed;
+}

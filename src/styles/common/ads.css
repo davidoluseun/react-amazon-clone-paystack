@@ -1,0 +1,32 @@
+/* Ads Component Style
+--------------------------- */
+
+.ads {
+  background: #fff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px #d5d9d9 solid;
+}
+
+.ads h3 {
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+
+/* Media Queries
+-------------------------------------- */
+
+@media (min-width: 576px) {
+  .ads-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ads-wrap {
+    display: block;
+  }
+}

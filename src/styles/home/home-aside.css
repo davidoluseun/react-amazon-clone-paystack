@@ -1,0 +1,27 @@
+/* HomeAside Component Style
+-------------------------------- */
+
+.home-aside {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.home-aside img {
+  width: 100%;
+}
+
+.home-aside .sign-in {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.home-aside .sign-in-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.home-aside .sign-in-btn {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+/* Subtotal Component Style
+-------------------------------- */
+
+.subtotal {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.subtotal-title {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.subtotal-btn {
+  width: 100%;
+}
+
+.subtotal-gift {
+  font-size: 14px;
+}

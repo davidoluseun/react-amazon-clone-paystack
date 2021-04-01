@@ -1,0 +1,277 @@
+/* BeltNav Component Style
+--------------------------------- */
+
+.belt-nav {
+  background: #131921;
+  font-size: 12px;
+}
+
+.belt-nav .content-wrap {
+  flex-wrap: wrap;
+  height: 60px;
+}
+
+.belt-location,
+.belt-search,
+.belt-auth,
+.belt-orders {
+  display: none;
+}
+
+.belt-cart {
+  padding: 0 5px;
+}
+
+.belt-cart-info .belt-line-2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.caret {
+  color: #ccc;
+  padding: 0 5px;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.belt-logo {
+  display: flex;
+  width: 60px;
+  padding: 5px 0;
+}
+
+.belt-language {
+  display: none;
+}
+
+.belt-auth {
+  justify-content: center;
+}
+
+.belt-cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 20px;
+}
+
+.belt-cart-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-count {
+  align-self: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f08804;
+  margin-bottom: -4px;
+}
+
+/* Media Queries
+----------------------------------- */
+
+@media (min-width: 576px) {
+  .belt-username span,
+  .belt-line-2 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .belt-line-1 {
+    height: 14px;
+  }
+
+  .belt-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 5px;
+  }
+
+  .cart-icon {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .belt-search {
+    height: 40px;
+    margin: 0 12px;
+    border-radius: 3px;
+  }
+
+  .belt-search-focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 153 0 / 50%);
+  }
+
+  .select-wrap {
+    position: relative;
+    display: flex;
+    color: #0f1111;
+    background: #f3f3f3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  .select-wrap:hover {
+    background: #dadada;
+    border-left-color: #dadada;
+    border-top-color: #dadada;
+    border-bottom-color: #dadada;
+  }
+
+  .search-facade {
+    border: 0;
+    padding: 0 12px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #cdcdcd;
+    border-right-color: #cdcdcd;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  .search-facade .caret {
+    color: #111;
+  }
+
+  .search-facade:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 153 0 / 50%);
+  }
+
+  .facade-text {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .belt-search select {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 40px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .belt-search input {
+    border-radius: 0px;
+  }
+
+  .belt-search input {
+    width: 100%;
+    color: #111;
+    border: 0;
+    outline: 0;
+  }
+
+  .belt-search-btn {
+    font-size: 20px;
+    color: #111;
+    border: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    background: #febd69;
+    width: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  .belt-search-btn:hover {
+    background-color: #f3a847;
+  }
+
+  .belt-search-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 153 0 / 50%);
+  }
+}
+
+@media (min-width: 992px) {
+  .belt-nav .content-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .belt-nav .nav-right {
+    width: auto;
+  }
+
+  .belt-language,
+  .belt-auth,
+  .belt-cart {
+    margin: 0;
+  }
+
+  .belt-location,
+  .belt-language,
+  .belt-auth,
+  .belt-orders,
+  .belt-cart {
+    padding: 0 8px 8px;
+  }
+
+  .belt-logo {
+    width: 97px;
+    padding: 8px 8px;
+  }
+
+  .belt-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .belt-location .marker {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  .belt-location .belt-lines {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .belt-location .belt-line-1 {
+    color: #ccc;
+  }
+
+  .belt-auth .belt-line-2 {
+    display: inline;
+  }
+
+  .cart-icon {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .belt-language {
+    display: flex;
+    align-items: center;
+  }
+
+  .belt-language img {
+    width: 24px;
+    height: 18px;
+  }
+
+  .belt-language .caret {
+    align-self: flex-end;
+    padding-bottom: 10px;
+  }
+
+  .belt-orders {
+    display: flex;
+    flex-direction: column;
+  }
+}

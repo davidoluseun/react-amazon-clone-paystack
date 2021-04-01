@@ -1,0 +1,39 @@
+/* FooterInfo Component Style
+------------------------------- */
+
+.footer-info {
+  padding: 20px;
+  display: grid;
+  font-size: 12px;
+  background: #131a22;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+div.footer-info a {
+  padding: 5px;
+}
+
+.footer-info small {
+  font-size: inherit;
+  color: #999;
+  grid-column: 1 / span 3;
+}
+
+/* Media Queries
+--------------------------- */
+
+@media (min-width: 768px) {
+  .footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  div.footer-info a {
+    padding: 10px;
+  }
+}

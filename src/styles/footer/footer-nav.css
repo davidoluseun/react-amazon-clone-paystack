@@ -1,0 +1,41 @@
+/* FooterNav Component Style
+-------------------------------- */
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  padding: 40px 20px;
+}
+
+.footer-nav h4 {
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  padding-left: 10px;
+}
+
+.footer-nav a {
+  display: flex;
+  padding: 5px 10px;
+  line-height: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries
+--------------------------- */
+
+@media (min-width: 576px) {
+  .footer-nav {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

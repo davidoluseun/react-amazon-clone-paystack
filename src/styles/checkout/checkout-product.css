@@ -1,0 +1,22 @@
+/* CheckoutProduct Component Style
+------------------------------------- */
+
+.checkout-products {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.checkout-products h2 {
+  margin: 0 0 12px;
+  font-size: 21px;
+}
+
+/* Media Queries
+-------------------------------------- */
+
+@media (min-width: 992px) {
+  .checkout-products {
+    margin-bottom: 0;
+  }
+}

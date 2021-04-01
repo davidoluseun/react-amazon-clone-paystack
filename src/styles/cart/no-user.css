@@ -1,0 +1,28 @@
+/* NoUser Component Style
+-------------------------------------- */
+
+.no-user {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.no-user a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.no-user-sign-in-btn {
+  margin: 0 10px 10px 0;
+}
+
+/* Media Queries
+-------------------------------------- */
+
+@media (min-width: 768px) {
+  .no-user {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+}

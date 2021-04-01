@@ -1,0 +1,22 @@
+/* Checkout Component Style
+------------------------------------- */
+
+.checkout {
+  background: #eaeded;
+}
+
+.checkout .content-wrap {
+  padding: 20px;
+}
+
+/* Media Queries
+-------------------------------------- */
+
+@media (min-width: 992px) {
+  .checkout .content-wrap {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    align-items: start;
+  }
+}

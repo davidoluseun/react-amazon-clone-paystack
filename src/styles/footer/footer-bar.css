@@ -1,0 +1,78 @@
+/* FooterBar Component Style
+------------------------------ */
+
+.footer-bar {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #3a4553;
+  padding: 30px 20px;
+}
+
+.footer-bar-logo {
+  display: none;
+}
+
+.footer-bar-option {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+}
+
+.option-country {
+  grid-column: 1 / span 3;
+  justify-self: center;
+}
+
+.footer-bar-option a {
+  text-decoration: none;
+}
+
+.footer-bar-option a:hover {
+  text-decoration: none;
+}
+
+.option-icon {
+  margin-right: 7.8px;
+}
+
+.sort-icon {
+  display: none;
+}
+
+.footer-bar .us-flag {
+  width: 18px;
+}
+
+/* Media Queries
+------------------------------- */
+
+@media (min-width: 768px) {
+  .footer-bar-option {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+  }
+
+  .footer-bar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-bar-logo img {
+    width: 76px;
+    height: 23px;
+  }
+
+  .footer-bar-option a {
+    padding: 6px 10px 6px 6px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+
+  .sort-icon {
+    display: inline;
+    padding-left: 16px;
+  }
+}

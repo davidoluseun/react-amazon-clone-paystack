@@ -1,0 +1,53 @@
+/* HeroSlider Component Style
+--------------------------------------- */
+
+/* Slick Slider Override */
+
+.hero-slider .slick-arrow {
+  width: 34px;
+  height: 54px;
+  z-index: 5;
+}
+
+.hero-slider .slick-prev {
+  left: 20px;
+}
+
+.hero-slider .slick-next {
+  right: 20px;
+}
+
+.hero-slider .slick-prev:before {
+  content: url("../../images/arrow-prev.png");
+}
+
+.hero-slider .slick-next:before {
+  content: url("../../images/arrow-next.png");
+}
+
+.hero-slider img {
+  width: 100%;
+}
+
+/* Media Queries
+------------------------------------ */
+
+@media (min-width: 768px) {
+  .hero-slider img {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+  .hero-slider .slick-next,
+  .hero-slider .slick-prev {
+    top: 20%;
+    transform: translate(0, -20%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-slider .slick-next,
+  .hero-slider .slick-prev {
+    top: 18%;
+    transform: translate(0, -18%);
+  }
+}

@@ -1,0 +1,25 @@
+/* ProductCategorySignIn Component Style
+---------------------------------------------- */
+
+.category-sign-in-header {
+  display: flex;
+}
+
+.category-sign-in-header a {
+  padding-right: 15px;
+}
+
+.recommendation {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.category-sign-in-link {
+  height: 110px;
+}
+
+.category-sign-in-link .variation-text {
+  text-align: center;
+  padding: 0;
+}

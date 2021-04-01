@@ -1,0 +1,15 @@
+/* Footer Component Style
+------------------------------ */
+
+.footer {
+  background: #232f3e;
+  color: #fff;
+}
+
+.footer a {
+  color: #ddd;
+}
+
+.footer a:hover {
+  color: #ddd;
+}

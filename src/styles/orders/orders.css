@@ -1,0 +1,46 @@
+/* Orders Component Style
+------------------------------------- */
+
+.orders {
+  background: #eaeded;
+  display: grid;
+}
+
+.orders .content-wrap {
+  padding: 20px;
+}
+
+.orders-preloader {
+  margin-bottom: 20px;
+}
+
+.orders-header {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.orders-header h2 {
+  margin: 0 0 12px;
+  font-size: 21px;
+}
+
+.order {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px #d5d9d9 solid;
+}
+
+/* Media Queries
+-------------------------------------- */
+
+@media (min-width: 1200px) {
+  .orders .content-wrap {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+    column-gap: 30px;
+  }
+}

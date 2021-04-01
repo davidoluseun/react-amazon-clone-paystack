@@ -1,0 +1,12 @@
+/* PreloaderWrap Component Style
+------------------------------------- */
+
+.preloader-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px #d5d9d9 solid;
+}

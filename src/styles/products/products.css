@@ -1,0 +1,16 @@
+/* Products Component Style
+------------------------------- */
+
+.products {
+  padding: 0 20px;
+}
+
+/* Media Queries
+------------------------------- */
+@media (min-width: 992px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+}
